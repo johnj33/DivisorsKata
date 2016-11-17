@@ -1,11 +1,13 @@
 # DivisorsKata
 Red green refactor coding exercise.
+
 ## This repository
 Within this repository you will find a solution `DivisorsKata.sln` this solution contains 2 projects 
 - `DivisorsKata` 
 Project containing 1 class `DivisorCalculator` with a calculate method (where the main logic will go).
 - `DivisorsKata.Tests.Unit`
 Project containing 1 class that has tests for the `DivisorCalculator`
+
 ### Current state
 Currently the project should build but contains 1 failing test.
 ![alt text](unitTests.png "Logo Title Text 1")
