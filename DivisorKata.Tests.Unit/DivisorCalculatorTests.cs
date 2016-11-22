@@ -14,7 +14,8 @@ namespace DivisorKata.Tests.Unit
             _divisorCalculator = new DivisorCalculator();
         }
 
-        [TestCase(8, new[] {1,2,4})]
+        [TestCase(1, new[] {1})]
+        [TestCase(2, new[] {1,2})]
         public void WhenCalculateIsCalledThenTheExpectedResponseIsReturned(int inputNumber, int[] expectedResponse)
         {
             var response = _divisorCalculator.Calculate(inputNumber);
