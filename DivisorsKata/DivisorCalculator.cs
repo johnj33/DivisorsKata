@@ -1,10 +1,14 @@
-﻿namespace DivisorsKata
+﻿using System;
+
+
+namespace DivisorsKata
 {
     public class DivisorCalculator
     {
         public int[] Calculate(int inputNumber)
         {
-            return null;
+            return new[] { 1 };
         }
     }
 }
+
